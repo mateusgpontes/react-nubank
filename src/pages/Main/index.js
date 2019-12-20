@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Header from '../../components/Header';
+import Tabs from '../../components/Tabs';
+
 import {Container} from './styled';
 
 function Main() {
@@ -8,6 +10,7 @@ function Main() {
     <>
       <Container>
         <Header />
+        <Tabs />
       </Container>
     </>
   );
